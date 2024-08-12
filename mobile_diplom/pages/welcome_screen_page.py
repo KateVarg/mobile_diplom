@@ -26,6 +26,9 @@ class WelcomeScreenPage:
         with allure.step('Проверка перехода на четвертую страницу'):
             browser.element((AppiumBy.ID, "org.wikipedia.alpha:id/primaryTextView")).should(have.text('Data & Privacy'))
 
+        with allure.step('Нажатие кнопки Get started на четвертой странице'):
+            browser.element((AppiumBy.ID, "org.wikipedia.alpha:id/fragment_onboarding_done_button")).click()s
+
         return self
 
     def welcome_screen_skip(self):
