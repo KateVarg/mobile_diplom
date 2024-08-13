@@ -27,7 +27,7 @@ class WelcomeScreenPage:
             browser.element((AppiumBy.ID, "org.wikipedia.alpha:id/primaryTextView")).should(have.text('Data & Privacy'))
 
         with allure.step('Нажатие кнопки Get started на четвертой странице'):
-            browser.element((AppiumBy.ID, "org.wikipedia.alpha:id/fragment_onboarding_done_button")).click()s
+            browser.element((AppiumBy.ID, "org.wikipedia.alpha:id/fragment_onboarding_done_button")).click()
 
         return self
 
