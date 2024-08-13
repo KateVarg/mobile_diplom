@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "hw-20"
+name = "mobile_diplom"
 version = "0.1.0"
 description = ""
 authors = ["KateVarg <katye9470@gmail.com>"]
