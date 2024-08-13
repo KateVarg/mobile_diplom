@@ -31,9 +31,7 @@ class MainPage:
             browser.element((AppiumBy.ID, "org.wikipedia.alpha:id/search_src_text")).type('!@#$%')
 
         with allure.step('Проверка результатов поиска'):
-            results = browser.all((AppiumBy.ID, 'org.wikipedia.alpha:id/page_list_item_title'))
-            results.should(have.no.size_greater_than(0))
-            results.first.should(have.text('Selene'))
+            browser.element((AppiumBy.ID, 'org.wikipedia.alpha:id/results_text')).should(have.text('No results'))
 
         return self
 
