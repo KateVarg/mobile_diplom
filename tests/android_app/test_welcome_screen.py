@@ -1,4 +1,4 @@
-from mobile_diplom.pages.welcome_screen_page import welcome_screen_page
+from wikipedia_app_tests.pages.welcome_screen_page import welcome_screen_page
 import allure
 
 

@@ -1,11 +1,9 @@
-import logging
-
 import pytest
 from appium import webdriver
 from selene import browser
 import os
 from dotenv import load_dotenv
-from mobile_diplom.utils import attach, path
+from wikipedia_app_tests.utils import attach, path
 
 import config
 

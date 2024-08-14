@@ -1,9 +1,9 @@
 def abs_path_from_project(relative_path: str):
-    import mobile_diplom
+    import wikipedia_app_tests
     from pathlib import Path
 
     return (
-        Path(mobile_diplom.__file__)
+        Path(wikipedia_app_tests.__file__)
         .parent.parent.joinpath(relative_path)
         .absolute()
         .__str__()

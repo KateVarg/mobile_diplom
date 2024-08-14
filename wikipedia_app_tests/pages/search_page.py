@@ -3,7 +3,7 @@ from appium.webdriver.common.appiumby import AppiumBy
 from selene import browser, have
 
 
-class MainPage:
+class SearchPage:
 
     def search_article_success(self):
         with allure.step('Ввод запроса в поле поиска'):
@@ -36,4 +36,4 @@ class MainPage:
         return self
 
 
-main_page = MainPage()
+search_page = SearchPage()

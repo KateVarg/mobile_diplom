@@ -1,6 +1,6 @@
 import os
 from appium.options.android import UiAutomator2Options
-from mobile_diplom.utils import path
+from wikipedia_app_tests.utils import path
 from dotenv import load_dotenv
 
 
