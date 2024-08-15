@@ -33,7 +33,7 @@
 <details><summary>3. Склонировать репозиторий</summary>
 
 ```
-git clone https://github.com/KateVarg/mobile_diplom
+git clone https://github.com/KateVarg/wikipedia-app-tests
 ```
 </details>
 
@@ -65,7 +65,7 @@ allure serve allure-results/
 
 Удаленный запуск автотестов осуществляется при помощи Jenkins. Все тесты выполняются на облачной платформе BrowserStack. Для запуска тестов необходимо выполнить следующие действия:
 
-1. Открыть [проект на Jenkins](https://jenkins.autotests.cloud/job/mobile_diplom/)
+1. Открыть [проект на Jenkins](https://jenkins.autotests.cloud/job/wikipedia-app-tests/allure/)
 
 <details><summary>2. Нажать на Build now</summary>
 
@@ -79,7 +79,7 @@ allure serve allure-results/
 
 </details>
 
-## <img src="https://camo.githubusercontent.com/501c9d05b6660ba5e1a8753b8461e60d7ff1614656102c254ab800e14a6b19fa/68747470733a2f2f616c6c7572657265706f72742e6f72672f7075626c69632f696d672f616c6c7572652d7265706f72742e737667" title="allure" alt="allure" width="30" height="30"/> Отчет в <a href = "https://jenkins.autotests.cloud/job/mobile_diplom/allure/">Allure report</a>
+## <img src="https://camo.githubusercontent.com/501c9d05b6660ba5e1a8753b8461e60d7ff1614656102c254ab800e14a6b19fa/68747470733a2f2f616c6c7572657265706f72742e6f72672f7075626c69632f696d672f616c6c7572652d7265706f72742e737667" title="allure" alt="allure" width="30" height="30"/> Отчет в <a href = "https://jenkins.autotests.cloud/job/wikipedia-app-tests/">Allure report</a>
 
 <details><summary>Основной отчет</summary>
 
